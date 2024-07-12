@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#2b2b2b;
+}
+.formDiv{
+    width: 40%;
+}
+@media screen and (max-width:1000px) {
+    .formDiv{
+        width: 55%;
+    }
+}
+@media screen and (max-width:700px) {
+    .formDiv{
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px) {
+    .formDiv{
+        width: 100%;
+    }
+}
+
+.btnDivGoogle{
+    background-color: white;
+    height: 50px;
+    border: 1px solid;
+
+}
+
+.btnDiv{
+
+    background-color: #2b2b2b;
+    height: 50px;
+}
+button.btn-create{
+    color: white;
+}
+
+.ft{
+    font-family:'PT Sans';
+    color:#2b2b2b
+}
